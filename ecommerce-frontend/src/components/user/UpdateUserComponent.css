@@ -1,0 +1,47 @@
+.update-user-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-user-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .update-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .update-user-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .update-user-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-user-button {
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .update-user-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

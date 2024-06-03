@@ -1,0 +1,16 @@
+/* OrderDetail.css */
+.order-detail-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .order-item {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  /* ... rest of your CSS */
+  

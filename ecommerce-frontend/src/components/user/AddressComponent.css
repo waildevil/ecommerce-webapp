@@ -1,0 +1,122 @@
+
+.addresses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Decrease the space between the cards */
+    justify-content: center; /* Center the cards in the container */
+    align-items: flex-start;
+  }
+  
+  .address-card {
+    width: 270px; /* Set a fixed width */
+    height: 270px; /* Set height equal to the width to make it square */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 4px; /* Rounded corners for aesthetics */
+    padding: 16px; /* Padding inside the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 10px; /* Add some margin around the card */
+    background-color: #fff; /* Set a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .address-card.add-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .add-new-content {
+    text-align: center;
+  }
+  
+  .add-address-btn {
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .plus-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: gray;
+  }
+
+  .addresses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .addresses-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .addresses-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .edit-button, .remove-button {
+    padding: 0;
+    background-color: transparent;
+    color: #007185;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline; 
+    margin-left: 8px; /
+  }
+  
+  .edit-button:hover, .remove-button:hover {
+    text-decoration: underline;
+  }
+
+  .add-address-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+  
+  .address-card .add-address-text {
+    font-size: 16px; /* Set font size for the text */
+    margin-top: 8px; /* Spacing between the plus icon and text */
+    color: black;
+    
+  }
+
+  .address-card .plus-icon {
+    font-size: 32px; /* Larger size for the plus */
+  }
+
+  .address-card .address-content {
+  font-size: 14px;
+  text-align: center;
+}
+  
+
+.add-address-link {
+    text-decoration: none; /* Removes underline */
+  }
+  
+.add-address-link:hover {
+    text-decoration: none; /* Ensures underline does not appear on hover */
+}
+  
+  

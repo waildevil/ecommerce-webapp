@@ -1,0 +1,94 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-nav a:hover{
+    color:#febd69;
+    transition: 0.3s
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.hero {
+    background-image: url('/images/homepage-gaming.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    overflow: hidden;
+    opacity: 0.7;
+    align-items: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(8px) grayscale(100%);
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #f29720;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #f7a73f; 
+}
+
+.logo-image{
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+}

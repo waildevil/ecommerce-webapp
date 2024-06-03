@@ -1,0 +1,33 @@
+.search-results-page {
+    padding: 20px;
+
+  }
+
+  .search-results-page h1{
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  /* ProductCard.css */
+  .card {
+    width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden; /* Keeps the content within the boundaries of the border-radius */
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow on hover */
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+  }
+  
+  /* Rest of the ProductCard.css remains the same */
+  

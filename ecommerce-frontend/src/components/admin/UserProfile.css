@@ -1,0 +1,25 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-profile-addresses, .user-profile-orders {
+    width: 100%;
+    max-width: 800px; 
+    margin: 20px 0;
+}
+
+.user-profile-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile-order-card {
+    width: 100%;
+    max-width: 800px; 
+    margin-bottom: 20px;
+}

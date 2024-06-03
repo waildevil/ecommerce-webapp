@@ -1,0 +1,36 @@
+/* OrdersPage.css */
+.orders-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 80%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* ... rest of your CSS */
+  
